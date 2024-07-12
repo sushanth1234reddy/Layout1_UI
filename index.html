@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout1_Grid</title>
+    <style>
+        [class*="i"]{
+            background-color: rgb(0, 255, 119);
+        }
+        .mann{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 5px;
+        }
+        .i2{
+            grid-column: 2/4;
+        }
+        .i7{
+            grid-row: 2/4;
+        }
+        .i8{
+            grid-row: 2/4;
+            grid-column: 2/5;
+        }
+        .i4{
+            grid-column: 5/6;
+            grid-row: 1/4;
+        }
+        .i5{
+            grid-column: 6/7;
+            grid-row: 1/4;
+        }
+        .i6{
+            grid-column: 7/8;
+            grid-row: 1/4;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>layout 1</h1>
+    <div class="mann">
+        <div class="i1" style="background-color: rgb(148, 16, 58);" >1</div>
+        <div class="i2">2</div>
+        <div class="i3">3</div>
+        <div class="i4" style="background-color: rgb(223, 223, 80);">4</div>
+        <div class="i5">5</div>
+        <div class="i6">6</div>
+        <div class="i7" style="background-color: blue;">7</div>
+        <div class="i8">8</div>
+        <!-- <div class="i9">9</div>
+        <div class="i10">10</div>
+        <div class="i11">11</div>
+        <div class="i12">12</div>
+        <div class="i13">13</div>
+        <div class="i14">14</div> -->
+        <!-- <div class="i15">15</div>
+        <div class="i16">16</div>
+        <div class="i17">17</div>
+        <div class="i18">18</div>
+        <div class="i19">19</div> -->
+        <!-- <div class="i20">20</div>
+        <div class="i21">21</div> -->
+    </div>
+</body>
+</html>
